@@ -1,0 +1,158 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    text-shadow: 1px 1px gray;
+}
+#image{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.tutorials-section {
+    height: 100%;
+    padding-top: 2.8%;
+    text-align: center;
+    background: #eee;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+}
+.tutorials-section h1{
+    font-family: 'Raleway', sans-serif;
+    color: maroon;
+    font-weight:600 ;
+}
+     h1{
+         padding: 2%;
+         font-family: 'Raleway', sans-serif;
+     }
+.about-section {
+    height: 90%;
+    padding-top: 70px;
+    text-align: center;
+    background: #fff;
+}
+.about-section h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: brown;
+    font-size: 50px;
+}
+  #img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+   #img1{
+    width: 8%;
+    height: 8%;
+    margin-top: 10%;
+    }
+    #img2{
+        width: 9%;
+        height: 9%;
+        margin-left: 80%;
+        margin-top: 15%;
+        }
+        .team{
+            text-align: left;
+            position: absolute;
+            left: 20%;
+            width: 80%;
+            padding-right: 15%;
+            font-size: 17px;
+        }
+        .team h2{
+            font-size: 30px;
+        }
+        .side{
+            text-align: left;
+            width: 15%;
+        }
+
+.contribute-section {
+    height: 200%;
+    padding-top: 2%;
+    background-image: url(join2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.contribute-section h1{
+    color: rgb(146, 12, 12);
+    font-family: 'kanit', sans-serif;
+    text-align: center;
+    margin-top: 0%;
+}
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.list-group-item{
+ background-color:rgb(204, 145, 145)
+ border: none;
+}
+.list-group-item:hover{
+    font-size: 150%;
+    color: black;
+    text-decoration: none;
+}
+.list-group a{
+    color: red;
+}
+.code{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    background-size: cover;
+}
+#marketimg{
+    position: relative;
+    margin-left: 20%;
+}
+
+
